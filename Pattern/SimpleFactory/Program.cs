@@ -10,7 +10,8 @@ namespace SimpleFactory
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World! " + DateTime.Now.ToString());
+            Console.WriteLine("Hello World! ");
+            Console.WriteLine(DateTime.Now);
             Console.ReadLine();
         }
     }
